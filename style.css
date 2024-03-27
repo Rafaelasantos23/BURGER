@@ -77,31 +77,30 @@ p{
 
 
 @media (max-width: 600px) { 
-  body{background-color: #ffffff;}
 
   .conteneiner-buttons{
     margin: 10px 4px 0px 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 7px;
+    gap: 5px;
   }
 
   button{
-    width: 100px;
+    width: 80px;
     height: 40px;
-    font-size: 12px;
+    font-size: 11px;
   }
 
   ul{ 
     margin-top: 20px;
+    margin-bottom: 60px;
     display: grid;
-    grid-template-columns: 110px 110px 110px;
+    grid-template-columns: 170px 170px;
     gap: 10px;
     cursor: grab;
     justify-content: center;
     border-radius: 10px;
-    color: #000000;
 }
 
 li{
@@ -111,12 +110,19 @@ li{
 }
 
 p{
-    color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 12px;
 
 }
+
+img{
+    border-radius: 5px;
+    transition: transform 0.5s ease;
+
+}
+
+img:active{ transform: translate(10px, 10px );}
 
  }
